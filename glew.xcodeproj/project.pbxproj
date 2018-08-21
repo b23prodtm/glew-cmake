@@ -1,0 +1,1800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		284B727DED3346BCB670C9EF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 70B734BEDEFB4BCAB0370240 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				6F14814936044EE385D7B84B /* CMake Rules */,
+			);
+			dependencies = (
+				5F557E1DADB74E8E95CBAB9A /* PBXTargetDependency */,
+				7363348231084481817C82E7 /* PBXTargetDependency */,
+				C0479B2507C04A2192D8C1A5 /* PBXTargetDependency */,
+				DFF7AA8C3ECD4455B633DD4C /* PBXTargetDependency */,
+				0F9A1AD734974C1FAB9DCFD8 /* PBXTargetDependency */,
+				24B541853778424B85BFB820 /* PBXTargetDependency */,
+				D27E0552192C40CEAA90DA70 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		9565A58DF123419384D274C8 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6D506A364E94B14B5497103 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				91634727A20946ACA5CDBA64 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3288F66795C94740973CA32F /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		BB50F72A177444C7A1DAA023 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2526DF6C610F4AA983A472CF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D9BEE6287D4F42F8913F0AD0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FE4AF6545324F7DB27C1B93 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 707A4047D0084ACB8FE18671 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		4A3C9522F1124F9EABF2FFBF /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = B5564351708143ABA1D89216 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */; };
+		518A812793864548BB1B86A8 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 73EFEDC4647D4B389BC3C61D /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		5D0F96D5600B4B92AB89C385 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/visualinfo.c */ = {isa = PBXBuildFile; fileRef = E3EA9D2E748645A0ABD898E3 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/visualinfo.c */; };
+		8CFCFF3DB3ED437EA1E7E2BF /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CFA74AB548914558A82AA0CA /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		B45B217FB5284D95B8C54164 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 462EFA872E23476F95CFB6F5 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		B9EB2268DF9149229B859D9B /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = 3E32C78795614EDE817C33DB /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */; };
+		BBDD8DA9DAB748A2B6D70FEF /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 0BDB4DB04F3A443FA4695133 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		C9A3EF0C6B3B4A7EA51FC779 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = 8E0C9152C5E44CDC812FFFE9 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */; };
+		CE407C3E596949008705BC69 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXBuildFile; fileRef = 9F3C36EAFA474F8FA0C6BF57 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */; };
+		CE87DAF73FBC4758AE88B072 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B93364BDB61142C085CA4FA0 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */; };
+		F5C62489711046F4B88928C7 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glewinfo.c */ = {isa = PBXBuildFile; fileRef = 9E171FEDE3AB4CA39D97284E /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glewinfo.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		16E9445C819B4B769EF245F1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4152AA0ACC58405A911FE13A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		732D997AC2954F7D8DED6465 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B1DF9C3CDD4E466A91ACC847 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		31F26FC4F09D4D3DA7DF2601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FEFA9CE4D4CCD8336A07D;
+			remoteInfo = libglew_static;
+		};
+		3211CBB10E2A4F8FBB4429FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F3D89652B84FC799555ED3;
+			remoteInfo = libglewmx_static;
+		};
+		4313867E2BA14D8098E271C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284B727DED3346BCB670C9EF;
+			remoteInfo = ALL_BUILD;
+		};
+		4661ED3B5B7340659800E481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C3389090544BE7AAA652EA;
+			remoteInfo = glewinfo;
+		};
+		4C51B331B1B54684A56B2672 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		4D7EFE8A21AE4725B5E6FBD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		5595B09017574956A8FE2726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF69B3A9FDEC4529BAC7D199;
+			remoteInfo = libglewmx_shared;
+		};
+		5C770F8C8C2B4347BC93C72B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		7B749A9B1A1D4D8DB1A33B68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		84488095CE0748F5B96E5E5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EA973C576404BB0B2D2AF2B;
+			remoteInfo = libglew_shared;
+		};
+		A7346A36622640F383DFF840 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 563DF51F7FC4478CA632FEA6;
+			remoteInfo = visualinfo;
+		};
+		AB048B9B180B4A508204CE4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		B8AB0B2AD60D452E8DBA07B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		C173EB0F3B1A45D08EF01B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FEFA9CE4D4CCD8336A07D;
+			remoteInfo = libglew_static;
+		};
+		DAFEED2E87444C13BB0B497D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB50F72A177444C7A1DAA023;
+			remoteInfo = ZERO_CHECK;
+		};
+		E937A4EB12374093A6B48ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FCD830088B6466586DACC25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FEFA9CE4D4CCD8336A07D;
+			remoteInfo = libglew_static;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDB4DB04F3A443FA4695133 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		24FFCA3903CA409CA0CD5F70 /* glewinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = glewinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E32C78795614EDE817C33DB /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		462EFA872E23476F95CFB6F5 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6496F9566F224D69BF3BFD11 /* libglew_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglewd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		707A4047D0084ACB8FE18671 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		73EFEDC4647D4B389BC3C61D /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7A38E2EE08254507B9030020 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8582E69ED94D4A5EAD66B7A1 /* libglew_shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglewd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E0C9152C5E44CDC812FFFE9 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		9E171FEDE3AB4CA39D97284E /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glewinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glewinfo.c; path = src/glewinfo.c; sourceTree = SOURCE_ROOT; };
+		9F3C36EAFA474F8FA0C6BF57 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		AC29295408284030ACD1B8E9 /* libglewmx_shared */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglewmxd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5564351708143ABA1D89216 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glew.c; path = src/glew.c; sourceTree = SOURCE_ROOT; };
+		B93364BDB61142C085CA4FA0 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CFA74AB548914558A82AA0CA /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D7A997306DC14BED93C1CF36 /* visualinfo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = visualinfo; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EA9D2E748645A0ABD898E3 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/visualinfo.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = visualinfo.c; path = src/visualinfo.c; sourceTree = SOURCE_ROOT; };
+		F8C37A0E12EA4767B6DD7B80 /* libglewmx_static */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglewmxd.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B1A5D18B58E4975A1F8961C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5564351708143ABA1D89216 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		117562FCC3E6468FB8257223 /* libglew_shared */ = {
+			isa = PBXGroup;
+			children = (
+				0B1A5D18B58E4975A1F8961C /* Source Files */,
+				CFA74AB548914558A82AA0CA /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglew_shared;
+			sourceTree = "<group>";
+		};
+		149E30D19E96433BBDFAB726 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E0C9152C5E44CDC812FFFE9 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		302C0E74447C4DA79F04B637 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		41D0C74B7F684874890B4F41 /* libglew_static */ = {
+			isa = PBXGroup;
+			children = (
+				BDC35EE0FFB144169EDB1B93 /* Source Files */,
+				73EFEDC4647D4B389BC3C61D /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglew_static;
+			sourceTree = "<group>";
+		};
+		4663A221B8D14C69B0B0159C /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E32C78795614EDE817C33DB /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		563E21DFFC5D4F33BF459AB5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E171FEDE3AB4CA39D97284E /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glewinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7CCE551C4F78442E8B84B53E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24FFCA3903CA409CA0CD5F70 /* glewinfo */,
+				8582E69ED94D4A5EAD66B7A1 /* libglew_shared */,
+				6496F9566F224D69BF3BFD11 /* libglew_static */,
+				AC29295408284030ACD1B8E9 /* libglewmx_shared */,
+				F8C37A0E12EA4767B6DD7B80 /* libglewmx_static */,
+				D7A997306DC14BED93C1CF36 /* visualinfo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E01F73A8E104E3DA66B0F00 /* glewinfo */ = {
+			isa = PBXGroup;
+			children = (
+				563E21DFFC5D4F33BF459AB5 /* Source Files */,
+				707A4047D0084ACB8FE18671 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = glewinfo;
+			sourceTree = "<group>";
+		};
+		A1671E9E15B24D968E201A20 = {
+			isa = PBXGroup;
+			children = (
+				E1A26E227FDD4BE1B3DB2B1A /* visualinfo */,
+				E5BD6EE02108469D86752572 /* libglewmx_shared */,
+				7E01F73A8E104E3DA66B0F00 /* glewinfo */,
+				117562FCC3E6468FB8257223 /* libglew_shared */,
+				F1EDD3D7505D4BA4910F082D /* libglewmx_static */,
+				41D0C74B7F684874890B4F41 /* libglew_static */,
+				C655688AF79D4636B2BB4D20 /* ALL_BUILD */,
+				7CCE551C4F78442E8B84B53E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CE07F0AA924777BF91EFDD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA9D2E748645A0ABD898E3 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/visualinfo.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BDC35EE0FFB144169EDB1B93 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3C36EAFA474F8FA0C6BF57 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C655688AF79D4636B2BB4D20 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				302C0E74447C4DA79F04B637 /* CMake Rules */,
+				7A38E2EE08254507B9030020 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E1A26E227FDD4BE1B3DB2B1A /* visualinfo */ = {
+			isa = PBXGroup;
+			children = (
+				B2CE07F0AA924777BF91EFDD /* Source Files */,
+				462EFA872E23476F95CFB6F5 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = visualinfo;
+			sourceTree = "<group>";
+		};
+		E5BD6EE02108469D86752572 /* libglewmx_shared */ = {
+			isa = PBXGroup;
+			children = (
+				149E30D19E96433BBDFAB726 /* Source Files */,
+				B93364BDB61142C085CA4FA0 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglewmx_shared;
+			sourceTree = "<group>";
+		};
+		F1EDD3D7505D4BA4910F082D /* libglewmx_static */ = {
+			isa = PBXGroup;
+			children = (
+				4663A221B8D14C69B0B0159C /* Source Files */,
+				0BDB4DB04F3A443FA4695133 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeLists.txt */,
+			);
+			name = libglewmx_static;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F3D89652B84FC799555ED3 /* libglewmx_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4345760C80E6412A9C0BFE55 /* Build configuration list for PBXNativeTarget "libglewmx_static" */;
+			buildPhases = (
+				EA3A09876BEF480AAEC0EF31 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C5BDF75EC74282AF52B108 /* PBXTargetDependency */,
+			);
+			name = libglewmx_static;
+			productName = libglewmx_static;
+			productReference = F8C37A0E12EA4767B6DD7B80 /* libglewmx_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		563DF51F7FC4478CA632FEA6 /* visualinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C85BA0F9439D4B4BA49E6744 /* Build configuration list for PBXNativeTarget "visualinfo" */;
+			buildPhases = (
+				FE46550ADAF6454499EA8038 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE8377D48594725ACA4903D /* PBXTargetDependency */,
+				68C62DE12E2D451FBD913A2C /* PBXTargetDependency */,
+			);
+			name = visualinfo;
+			productName = visualinfo;
+			productReference = D7A997306DC14BED93C1CF36 /* visualinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+		6EA973C576404BB0B2D2AF2B /* libglew_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B295F67A3946E1B2D31576 /* Build configuration list for PBXNativeTarget "libglew_shared" */;
+			buildPhases = (
+				B5BD06B545A64B288D431C70 /* Sources */,
+				A395C80A89C747259340E4FC /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2A0F7E19B645F9B014FE4B /* PBXTargetDependency */,
+			);
+			name = libglew_shared;
+			productName = libglew_shared;
+			productReference = 8582E69ED94D4A5EAD66B7A1 /* libglew_shared */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		B86FEFA9CE4D4CCD8336A07D /* libglew_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC27BDCD85BD402582484548 /* Build configuration list for PBXNativeTarget "libglew_static" */;
+			buildPhases = (
+				22E8CFD98178476788538F28 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6027018DCC4449BAA7F9D871 /* PBXTargetDependency */,
+			);
+			name = libglew_static;
+			productName = libglew_static;
+			productReference = 6496F9566F224D69BF3BFD11 /* libglew_static */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CF69B3A9FDEC4529BAC7D199 /* libglewmx_shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC7DD7986364FE6B2932E81 /* Build configuration list for PBXNativeTarget "libglewmx_shared" */;
+			buildPhases = (
+				0188B97605CA4A6A9B894668 /* Sources */,
+				D60379C5B3464C448D479963 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1B8660012514A21B47F29D2 /* PBXTargetDependency */,
+			);
+			name = libglewmx_shared;
+			productName = libglewmx_shared;
+			productReference = AC29295408284030ACD1B8E9 /* libglewmx_shared */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		D6C3389090544BE7AAA652EA /* glewinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3829F0095B34B2582D1D211 /* Build configuration list for PBXNativeTarget "glewinfo" */;
+			buildPhases = (
+				CD49CD757A664222806F45B0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB09A03336C84AE2BD85952B /* PBXTargetDependency */,
+				97057AE6E7C843A58CA7B698 /* PBXTargetDependency */,
+			);
+			name = glewinfo;
+			productName = glewinfo;
+			productReference = 24FFCA3903CA409CA0CD5F70 /* glewinfo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FCD830088B6466586DACC25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = CEB0B032283F49538C3EB455 /* Build configuration list for PBXProject "glew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				B1DF9C3CDD4E466A91ACC847 /* Debug */,
+				16E9445C819B4B769EF245F1 /* Release */,
+				4152AA0ACC58405A911FE13A /* MinSizeRel */,
+				732D997AC2954F7D8DED6465 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = A1671E9E15B24D968E201A20;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				284B727DED3346BCB670C9EF /* ALL_BUILD */,
+				BB50F72A177444C7A1DAA023 /* ZERO_CHECK */,
+				D6C3389090544BE7AAA652EA /* glewinfo */,
+				9565A58DF123419384D274C8 /* install */,
+				6EA973C576404BB0B2D2AF2B /* libglew_shared */,
+				B86FEFA9CE4D4CCD8336A07D /* libglew_static */,
+				CF69B3A9FDEC4529BAC7D199 /* libglewmx_shared */,
+				18F3D89652B84FC799555ED3 /* libglewmx_static */,
+				563DF51F7FC4478CA632FEA6 /* visualinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AAEFDD43498480EB80CE791 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6F14814936044EE385D7B84B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake -f /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7CB17DC9F4F141D9AD198DC7 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		91634727A20946ACA5CDBA64 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake -f /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A395C80A89C747259340E4FC /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake -f /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeScripts/libglew_shared_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D60379C5B3464C448D479963 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake -f /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeScripts/libglewmx_shared_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		D9BEE6287D4F42F8913F0AD0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake -f /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		EA16AFA129D4440FAAA85CBC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0188B97605CA4A6A9B894668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A3EF0C6B3B4A7EA51FC779 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E8CFD98178476788538F28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE407C3E596949008705BC69 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5BD06B545A64B288D431C70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3C9522F1124F9EABF2FFBF /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD49CD757A664222806F45B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C62489711046F4B88928C7 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glewinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3A09876BEF480AAEC0EF31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EB2268DF9149229B859D9B /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/glew.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE46550ADAF6454499EA8038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0F96D5600B4B92AB89C385 /* /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/src/visualinfo.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F9A1AD734974C1FAB9DCFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = 4C51B331B1B54684A56B2672 /* PBXContainerItemProxy */;
+		};
+		24B541853778424B85BFB820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F3D89652B84FC799555ED3 /* libglewmx_static */;
+			targetProxy = 3211CBB10E2A4F8FBB4429FC /* PBXContainerItemProxy */;
+		};
+		3288F66795C94740973CA32F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284B727DED3346BCB670C9EF /* ALL_BUILD */;
+			targetProxy = 4313867E2BA14D8098E271C4 /* PBXContainerItemProxy */;
+		};
+		5F557E1DADB74E8E95CBAB9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C3389090544BE7AAA652EA /* glewinfo */;
+			targetProxy = 4661ED3B5B7340659800E481 /* PBXContainerItemProxy */;
+		};
+		6027018DCC4449BAA7F9D871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = AB048B9B180B4A508204CE4B /* PBXContainerItemProxy */;
+		};
+		68C62DE12E2D451FBD913A2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = B8AB0B2AD60D452E8DBA07B7 /* PBXContainerItemProxy */;
+		};
+		7363348231084481817C82E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF69B3A9FDEC4529BAC7D199 /* libglewmx_shared */;
+			targetProxy = 5595B09017574956A8FE2726 /* PBXContainerItemProxy */;
+		};
+		97057AE6E7C843A58CA7B698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = 7B749A9B1A1D4D8DB1A33B68 /* PBXContainerItemProxy */;
+		};
+		AC2A0F7E19B645F9B014FE4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = DAFEED2E87444C13BB0B497D /* PBXContainerItemProxy */;
+		};
+		B1B8660012514A21B47F29D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = 4D7EFE8A21AE4725B5E6FBD3 /* PBXContainerItemProxy */;
+		};
+		C0479B2507C04A2192D8C1A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 563DF51F7FC4478CA632FEA6 /* visualinfo */;
+			targetProxy = A7346A36622640F383DFF840 /* PBXContainerItemProxy */;
+		};
+		C0C5BDF75EC74282AF52B108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB50F72A177444C7A1DAA023 /* ZERO_CHECK */;
+			targetProxy = 5C770F8C8C2B4347BC93C72B /* PBXContainerItemProxy */;
+		};
+		D27E0552192C40CEAA90DA70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EA973C576404BB0B2D2AF2B /* libglew_shared */;
+			targetProxy = 84488095CE0748F5B96E5E5E /* PBXContainerItemProxy */;
+		};
+		DB09A03336C84AE2BD85952B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FEFA9CE4D4CCD8336A07D /* libglew_static */;
+			targetProxy = C173EB0F3B1A45D08EF01B2B /* PBXContainerItemProxy */;
+		};
+		DFF7AA8C3ECD4455B633DD4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FEFA9CE4D4CCD8336A07D /* libglew_static */;
+			targetProxy = 31F26FC4F09D4D3DA7DF2601 /* PBXContainerItemProxy */;
+		};
+		FCE8377D48594725ACA4903D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FEFA9CE4D4CCD8336A07D /* libglew_static */;
+			targetProxy = E937A4EB12374093A6B48ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D2F04D1BEA4CFB86B571D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug/libglewd.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		04392A82EBCD4F9C95AC3881 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		068E105ACB694562B006673E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0A1C45D9B70D434BA83F2D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0B71C314132D46F6A8788988 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		19DCBA9F2652435EAA628977 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglewmx_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1C2CB6F42424424DA33858B4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		26456AC3014E406E9D86B068 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2EB690CF790F4DB0A1A2F927 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3E4EF99CFBBA4D81A8C0067A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		400973AF260248DF92CBC0F2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		51F6C8A7187A4D608DF8B847 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglewmx_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5FCE7B128A4E4F8885443062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		61C7A640A1324FF2AD2C2E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6DE40200F4F2442CBC7729CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglewmx_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "   -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmxd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		77C70A3388D6459FB6CE33CA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A821E0B8AFD4ECBA8109331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7E4237E6EE374D54B6318FEA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/build";
+			};
+			name = MinSizeRel;
+		};
+		88253458362C4994B0098A2E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		889928FAF54E4B4B93F28B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		88D5AFADDC124C5AB103AAA7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/build";
+			};
+			name = RelWithDebInfo;
+		};
+		92A8981F833D4B32BA64CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/build";
+			};
+			name = Release;
+		};
+		96A053A2180E4347B89B0E16 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A21FD862E9FE445A97660376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A418D53A3437428F9833B655 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A7C7A9FAD1D145F6A47EE05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug/libglewd.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AFEA3F022F8B437483F18D54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B05FBC48428E4C4887A9F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B153DE95F7DF41DF88D0EB98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B7A95C241DDB4D9A888E13A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C5960ECA03264470B1AD37B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D8663331F3E14BE7989B529E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release/libglew.a -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = visualinfo;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		EBF2ECD5E98F4174A5644CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		EBFA43E797184709B13D5C14 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ED9138B6BF8A42EE837BB98E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk;
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/build";
+			};
+			name = Debug;
+		};
+		EF14583AE5B043089228644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CFLAGS = "    ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmxd;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F9B1DB4A52DA4A9F8E596B1E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FB79A901F5464CF792ACBA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglewmx_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/Release";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glewmx;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FDC110D7F181419DBB6DA3FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/RelWithDebInfo";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "       -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF9C576274B24416AB41794F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",libglew_shared_EXPORTS,GLEW_NO_GLU);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/include");
+				INSTALL_PATH = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake/lib/MinSizeRel";
+				LIBRARY_SEARCH_PATHS = "";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CFLAGS = "    -DNDEBUG -fPIC  ";
+				OTHER_LDFLAGS = " -dynamiclib -Wl,-headerpad_max_install_names  -framework OpenGL -framework AGL";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/wwwb23prodtminfo/NetBeansProjects/glew-cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2526DF6C610F4AA983A472CF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5960ECA03264470B1AD37B1 /* Debug */,
+				B153DE95F7DF41DF88D0EB98 /* Release */,
+				AFEA3F022F8B437483F18D54 /* MinSizeRel */,
+				96A053A2180E4347B89B0E16 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4345760C80E6412A9C0BFE55 /* Build configuration list for PBXNativeTarget "libglewmx_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF14583AE5B043089228644A /* Debug */,
+				5FCE7B128A4E4F8885443062 /* Release */,
+				0B71C314132D46F6A8788988 /* MinSizeRel */,
+				A418D53A3437428F9833B655 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70B734BEDEFB4BCAB0370240 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				889928FAF54E4B4B93F28B8A /* Debug */,
+				A21FD862E9FE445A97660376 /* Release */,
+				F9B1DB4A52DA4A9F8E596B1E /* MinSizeRel */,
+				04392A82EBCD4F9C95AC3881 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7BC7DD7986364FE6B2932E81 /* Build configuration list for PBXNativeTarget "libglewmx_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DE40200F4F2442CBC7729CB /* Debug */,
+				FB79A901F5464CF792ACBA0F /* Release */,
+				19DCBA9F2652435EAA628977 /* MinSizeRel */,
+				51F6C8A7187A4D608DF8B847 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C85BA0F9439D4B4BA49E6744 /* Build configuration list for PBXNativeTarget "visualinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C7A9FAD1D145F6A47EE05C /* Debug */,
+				D8663331F3E14BE7989B529E /* Release */,
+				2EB690CF790F4DB0A1A2F927 /* MinSizeRel */,
+				77C70A3388D6459FB6CE33CA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEB0B032283F49538C3EB455 /* Build configuration list for PBXProject "glew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9138B6BF8A42EE837BB98E /* Debug */,
+				92A8981F833D4B32BA64CC47 /* Release */,
+				7E4237E6EE374D54B6318FEA /* MinSizeRel */,
+				88D5AFADDC124C5AB103AAA7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E6B295F67A3946E1B2D31576 /* Build configuration list for PBXNativeTarget "libglew_shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C7A640A1324FF2AD2C2E46 /* Debug */,
+				0A1C45D9B70D434BA83F2D7C /* Release */,
+				FF9C576274B24416AB41794F /* MinSizeRel */,
+				FDC110D7F181419DBB6DA3FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F3829F0095B34B2582D1D211 /* Build configuration list for PBXNativeTarget "glewinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03D2F04D1BEA4CFB86B571D3 /* Debug */,
+				068E105ACB694562B006673E /* Release */,
+				88253458362C4994B0098A2E /* MinSizeRel */,
+				26456AC3014E406E9D86B068 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F6D506A364E94B14B5497103 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF2ECD5E98F4174A5644CE2 /* Debug */,
+				7A821E0B8AFD4ECBA8109331 /* Release */,
+				3E4EF99CFBBA4D81A8C0067A /* MinSizeRel */,
+				1C2CB6F42424424DA33858B4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC27BDCD85BD402582484548 /* Build configuration list for PBXNativeTarget "libglew_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7A95C241DDB4D9A888E13A4 /* Debug */,
+				B05FBC48428E4C4887A9F64A /* Release */,
+				EBFA43E797184709B13D5C14 /* MinSizeRel */,
+				400973AF260248DF92CBC0F2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FCD830088B6466586DACC25 /* Project object */;
+}
